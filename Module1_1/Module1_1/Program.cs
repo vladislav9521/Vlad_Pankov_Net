@@ -10,6 +10,14 @@ namespace Module1_1
     {
         static void Main(string[] args)
         {
+
+            int a = 1, b = 2;
+            Console.WriteLine("Значения чисел «a» и «b» до изменения:\n a = {0}; b = {1}", a, b);
+            a ^= b;
+            b ^= a;
+            a ^= b;
+            Console.WriteLine("Значения чисел «a» и «b» после изменения:\n a = {0}; b = {1}", a, b);
+            Console.ReadKey();
         }
     }
 }
