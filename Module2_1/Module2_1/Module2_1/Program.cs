@@ -16,7 +16,7 @@ namespace Module2_1
             double taxSum, incOfOne = 500.0, taxPC;
 
             Console.Write("Введите число компаний: ");
-            countComp = Convert.ToInt32(Console.ReadLine());
+            countComp = Convert.ToInt16(Console.ReadLine());
             Console.Write("Введите налог(в %): ");
             taxPC = Convert.ToDouble(Console.ReadLine());
             
