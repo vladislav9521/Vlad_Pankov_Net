@@ -90,8 +90,8 @@ namespace Module5
                 {
                     traps[i] = new Trap
                     {
-                        LocationX = (int)Wall.MinX + random.Next(0, 11) * (int)Step.Right,
-                        LocationY = (int)Wall.MinY + random.Next(0, 11) * (int)Step.Down,
+                        LocationX = (int)Wall.MinX + random.Next(0, 10) * (int)Step.Right,
+                        LocationY = (int)Wall.MinY + random.Next(0, 10) * (int)Step.Down,
                         Damage = random.Next(Trap.MinDamage, Trap.MaxDamage + 1)
                     };
                 }
